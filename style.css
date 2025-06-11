@@ -1,0 +1,33 @@
+header {
+    height: 80px;
+    background-color: antiquewhite;
+    margin:auto;
+}
+.navigation-bar {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    align-items: baseline;
+    margin-right: 30px;
+}
+
+.navigation-bar > li {
+    padding: 15px 25px;
+    font-size: 20px;
+    border-radius: 12px;
+    background-color:aquamarine
+}
+
+li.name {
+    margin-right: auto;
+    font-size: 30px;
+    padding: 0px;
+    border-style: none;
+    background-color:transparent;
+}
+
+body {
+    background-color: azure;
+}
+
