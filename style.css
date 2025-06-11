@@ -1,7 +1,9 @@
 header {
     height: 80px;
-    background-color: antiquewhite;
-    margin:auto;
+    background-color: rgb(131, 151, 243);
+    align-items: center;
+    align-content: center;
+    text-align: center;
 }
 .navigation-bar {
     list-style: none;
@@ -10,13 +12,15 @@ header {
     gap: 30px;
     align-items: baseline;
     margin-right: 30px;
+    margin-top: 6px;
 }
 
 .navigation-bar > li {
     padding: 15px 25px;
     font-size: 20px;
     border-radius: 12px;
-    background-color:aquamarine
+    background-color:rgb(236, 224, 249);
+    font-family: "Quicksand", sans-serif;
 }
 
 li.name {
@@ -25,9 +29,44 @@ li.name {
     padding: 0px;
     border-style: none;
     background-color:transparent;
+    font-family: "Edu NSW ACT Cursive", cursive;
 }
 
 body {
-    background-color: azure;
+    background-color: rgb(202, 203, 241);
 }
 
+.homepage-super-text {
+    font-size: 90px;
+    margin: 120px 0px 30px 50px;
+    font-family:"Quicksand", sans-serif;
+    
+}
+
+.homepage-small-text {
+    margin-left: 50px;
+    font-size: 30px;
+    font-family:"Quicksand", sans-serif;
+}
+
+/* Everything below is for the capstone file */
+
+.Quicksand {
+     font-family:"Quicksand", sans-serif;
+}
+
+#title {
+    margin:auto;
+}
+
+#capstone-container {
+    display: flex;
+    width: 900px;
+    margin:auto;
+    flex-wrap: nowrap;
+}
+
+.informative-text > p {
+    font-size: 20px;
+    font-family:"Quicksand", sans-serif;
+}
